@@ -1,7 +1,8 @@
 shop_list = {
     'meblowy':['kanapa', 'stoł', 'krzesło'],
     'mięsny':['jagnięcina', 'kabanosy', 'skrzydełka'],
-    'kiosk':['gazeta', 'baterie', 'zapałki']
+    'kiosk':['gazeta', 'baterie', 'zapałki'],
+    'drogeria':['lakier', 'szampon', 'błyszczyk']
 }
 for item in shop_list:
     print(f"Idę do {item.capitalize()} i kupuję {', '.join([c.capitalize() for c in shop_list[item]])}.")

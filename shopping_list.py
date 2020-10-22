@@ -1,6 +1,6 @@
 shop_list = {
     'meblowy':['kanapa', 'stoł', 'krzesło'],
-    'mięsny':['jagnięcina', 'krakowska sucha', 'skrzydełka'],
+    'mięsny':['jagnięcina', 'kabanosy', 'skrzydełka'],
     'kiosk':['gazeta', 'baterie', 'zapałki']
 }
 for item in shop_list:
